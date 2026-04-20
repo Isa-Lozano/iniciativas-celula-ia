@@ -1,0 +1,13 @@
+name: Nueva Iniciativa
+description: Crea una nueva issue con campo de tipo
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Epic
+        - Bug
+        - Feature
+    validations:
+      required: true
